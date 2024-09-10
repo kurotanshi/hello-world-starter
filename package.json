@@ -1,22 +1,14 @@
 {
-  "name": "vue-vapor-demo",
+  "name": "demo-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "packageManager": "pnpm@9.8.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "@vueuse/core": "^11.0.1",
-    "vue": "https://pkg.pr.new/vuejs/core-vapor/vue@main"
-  },
   "devDependencies": {
-    "@types/node": "^22.5.0",
-    "@vitejs/plugin-vue": "npm:@vue-vapor/vite-plugin-vue@latest",
-    "terser": "^5.31.6",
-    "vite": "^5.4.2"
+    "vite": "^5.4.1"
   }
 }
